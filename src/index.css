@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+*{
+  margin:2;
+  padding:2;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+html, body, #root{
+  width:100%;
+  overflow-x:hidden;
+  background:#0c0c0c;
+}
+
+body{
+  font-family:
+    "Neue Haas Grotesk Display",
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+  color:white;
+  -webkit-font-smoothing: antialiased;
+}
