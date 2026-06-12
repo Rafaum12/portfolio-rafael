@@ -294,7 +294,7 @@ function Hero() {
           initial={{ opacity: 0, y: 38 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9 }}
-          className="max-w-5xl text-[3.8rem] font-semibold leading-[0.98] tracking-[-0.05em] text-[#e8e8e8] md:text-8xl lg:text-[8.2rem]"
+          className="hero-title max-w-5xl"
         >
           Design visual para marcas que precisam parecer maiores.
         </motion.h1>
@@ -477,7 +477,7 @@ function Projects() {
     >
       <div className="mx-auto w-full max-w-[1440px]">
         <div className="mb-16 grid gap-8 md:grid-cols-[1fr_.7fr] md:items-end">
-          <h2 className="max-w-4xl text-6xl font-semibold leading-[0.98] tracking-[-0.045em] md:text-7xl lg:text-8xl">
+          <h2 className="section-title max-w-4xl">
             Projetos realizados
           </h2>
 
@@ -906,7 +906,7 @@ function Process() {
       className="w-full bg-[#f3f0eb] px-6 py-28 text-[#111] md:px-10 lg:px-14"
     >
       <div className="mx-auto w-full max-w-[1440px]">
-        <h2 className="mb-16 max-w-4xl text-5xl font-semibold leading-[1] tracking-[-0.045em] text-black md:text-7xl">
+        <h2 className="process-title mb-16 max-w-4xl text-black">
           Um processo claro para transformar a sua ideia em uma presença visual.
         </h2>
 

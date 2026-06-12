@@ -1,27 +1,69 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-*{
-  margin:2;
-  padding:2;
-  box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-  scroll-behavior:smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-html, body, #root{
-  width:100%;
-  overflow-x:hidden;
-  background:#0c0c0c;
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  background: #0c0c0c;
 }
 
-body{
+body {
   font-family:
     "Neue Haas Grotesk Display",
     "Helvetica Neue",
     Arial,
     sans-serif;
-  color:white;
+  color: white;
   -webkit-font-smoothing: antialiased;
+}
+
+button,
+a {
+  font-family: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+img,
+video,
+iframe {
+  display: block;
+}
+.hero-title {
+  font-size: clamp(5rem, 8vw, 8.2rem);
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+  font-weight: 600;
+  color: #e8e8e8;
+}
+
+.section-title {
+  font-size: clamp(4.5rem, 6.5vw, 8rem);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+  font-weight: 600;
+}
+
+.process-title {
+  font-size: clamp(3.5rem, 5vw, 7rem);
+  line-height: 1;
+  letter-spacing: -0.045em;
+  font-weight: 600;
 }
